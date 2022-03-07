@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://ec2-34-226-249-72.compute-1.amazonaws.com:3306/sales?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    username: sales
+    password: sales01@#
+  jpa:
+    generate-ddl: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_batch_fetch_size: 1000
+        format_sql: true
+    database: mysql
+    show-sql: true

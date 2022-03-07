@@ -1,0 +1,12 @@
+PUT http://localhost:8080/api/hospital
+Content-Type: application/json
+
+{
+  "uuid" : "D4F1DFD222CZZ",
+  "conCode" : 4,
+  "name" : "라마바사 병원",
+  "memo" : "memo test",
+  "manager" : "장호",
+  "contact1" : "01056135430",
+  "contact2" : "01056135430"
+}

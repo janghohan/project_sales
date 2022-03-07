@@ -1,0 +1,1 @@
+GET http://localhost:8080/api/hospital/memo/list?uuid=D4F1DFD222CZZ&hospitalId=1

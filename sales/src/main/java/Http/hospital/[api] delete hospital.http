@@ -1,0 +1,6 @@
+DELETE http://localhost:8080/api/hospital/3
+Content-Type: application/json
+
+{
+  "uuid" : "D4F1DFD222CZZ"
+}

@@ -1,0 +1,17 @@
+POST http://localhost:8080/api/hospital/1
+Content-Type: application/json
+
+{
+  "uuid" : "D4F1DFD222CZZ",
+  "conCode" : 1,
+  "name" : "우리의 진짜 병원",
+  "memo" : "memo test",
+  "manager" : "장호",
+  "contact1" : "01056135430",
+  "contact2" : "01056135430",
+  "latitude" : null,
+  "longitude" : null,
+  "addressStreet" : null,
+  "addressLot" : null,
+  "addressCode" : null
+}
